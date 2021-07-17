@@ -1,0 +1,54 @@
+.right-5 {
+    padding-left: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+    .right {
+    padding-left: 61%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .right {
+    padding-left: 72%;
+    }
+}
+
+.containerInicio {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.btn-cotiza {
+    border-radius: 30px 30px 30px 30px;
+}
+
+.img-generica {
+    width: 95%;
+}
+
+.container {
+    margin-left: 5%;
+}
+
+.pad-8 {
+    padding-top: 8%;
+}
+
+.containerValores {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.card-valores {
+    box-shadow: inset;
+}
+
+.img-generica-card {
+    width: 85%;
+    height: 200px;
+}
