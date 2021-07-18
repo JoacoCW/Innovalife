@@ -27,6 +27,7 @@
     }
 }
 
+/* Sercción inicio */ 
 .containerInicio {
     padding-top: 5%;
     margin-left: 5%;
@@ -50,37 +51,72 @@
     padding-top: 8%;
 }
 
+/* Fin sección incio*/
+
+/* Sección valores */
+
 .containerValores {
     padding-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 5%;
     align-items: center;
     text-align: center;
 }
 
+.texto-seccion {
+    margin-bottom: 5%;
+}
+
 .card-valores {
-    box-shadow: inset;
     border-style: groove;
     border-radius: 30px 30px 30px 30px;
     padding: 0 !important;
     width: 23%;
+    height: 350px;
     margin-left: 10px;
     margin-right: 10px;
+    display: inline-block
+}
+
+.texto-card {
+    margin-top: 5%;
 }
 
 .img-generica-card {
-    width: 85%;
+    width: 200px;
     height: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+/* Fin sección valores */
+
+/* Sección ilustración */
+
+.ilustracion {
+    width: 100%;
+}
+
+/* Fin sección ilustración */
+
+/* Sección servicios */
+
+.containerServicios {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Fin sección servicios */
+
+/* Sección Que hacemos */
+
 .containerQueHacemos {
     padding-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-bottom: 5%;
 }
 
 .titleQueHacemos {
@@ -96,3 +132,29 @@
     width: 85%;
     height: 100%;
 }
+
+/* Fin sección que hacemos */
+
+/* Sección trabajos */
+
+.containerTrabajos {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Fin sección trabajos */
+
+/* Sección tecnologías */
+
+.containerTecnologias {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Fin sección tecnologías */
