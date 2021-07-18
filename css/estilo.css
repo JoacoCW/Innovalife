@@ -52,3 +52,25 @@
     width: 85%;
     height: 200px;
 }
+
+.containerQueHacemos {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.titleQueHacemos {
+    margin-bottom: 3rem;
+}
+
+.textQueHacemos {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.imgQueHacemos {
+    width: 85%;
+    height: 100%;
+}
+
