@@ -43,10 +43,6 @@
     width: 95%;
 }
 
-.container {
-    margin-left: 5%;
-}
-
 .pad-8 {
     padding-top: 8%;
 }
@@ -230,6 +226,17 @@
     margin-right: 5%;
     align-items: center;
     text-align: center;
+}
+
+.containerTecnologiasImgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-tecnologias {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 /* Fin sección tecnologías */
