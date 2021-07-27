@@ -73,6 +73,30 @@
 
 /* Fin sección incio*/
 
+/* Whatsapp icon */
+
+.whatsapp-icon {
+	position:fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 5%;
+	right: 3%;
+	background-color: #25D366 !important;
+	color: #FFF;
+	border-radius: 50%;
+	text-align: center;
+    font-size: 200%;
+	box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon-float {
+	margin-top: 12%;
+    margin-left: 5%;
+}
+
+/* End whatsapp icon */
+
 /* Sección valores */
 
 .containerValores {
