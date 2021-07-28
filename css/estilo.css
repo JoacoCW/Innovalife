@@ -300,12 +300,6 @@
 
 /* Cards tecnologias */
 
-.owl-item img {
-    width: 80px !important;
-    display: inline-block !important;
-}
-
-
 .tecnologias .tecnologias-item {
     box-sizing: content-box;
     text-align: center;
