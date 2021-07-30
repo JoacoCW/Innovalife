@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>INNOVALIFE</title>
     <!-- Bootstrap 5.0.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Title -->
-    <title>INNOVALIFE</title>
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Owl Carousel -->
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light right-5">
+    <nav class="navbar navbar-expand-lg navbar-light right-5">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="" alt="Logo Innovalife">INNOVALIFE</a>
+            <a class="navbar-brand" href="#"><img class="img-logo" src="assets/img/LogoTopBar.svg" alt="Logo Innovalife"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +32,7 @@
                         <a class="nav-link" href="#">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link bottom" href="#">Trabajos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link contact" href="#" >Contacto</a>
@@ -43,61 +47,97 @@
             <div class="col-xl-12">
                 <div class="row">
                     <div class="col-xl-6 col-md-12 pad-8">
-                        <h3>Se parte de la <br><span class="typed" data-typed-items="transformación, innovación, creatividad"></span></h3>
+                        <h3 class="titulo-principal">Soluciones <br><span class="typed" data-typed-items="Tecnológicas, Innovadoras, Escalables, De calidad, Profesionales, Creativas"></span></h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero omnis eos, accusantium repellendus error deleniti vitae sapiente iure, sint maxime vero vel distinctio magnam eaque voluptatum ipsum eius! Enim, inventore.</p>
-                        <button class="btn-cotiza btn btn-secondary btn-lg">Cotizá tu proyecto</button>
+                        <button class="btn-redondeado btn btn-secondary btn-lg btn-cotiza">Cotiza tu proyecto</button>
                     </div>
                     <div class="col-xl-6 col-md-12">
-                        <img class="img-generica" src="assets/img/floralis.jpg" alt="Illustración">
+                        <img class="img-generica" src="assets/img/Ilustracion1.svg" alt="Illustración">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Fin primera sección-->
+    <!-- Whatsapp floating icon -->
+        <a href="https://api.whatsapp.com/send?phone=" class="whatsapp-icon" target="_blank">
+            <div class="whatsapp-icon-float">
+                <i class="bi bi-whatsapp"></i>
+            </div>
+        </a>
+    <!-- End Whatsapp flotaing icon -->
     <!-- Sección valores + nosotros -->
     <div class="containerValores">
         <div class="row">
             <div class="col-xl-12">
                 <div class="row">
-                    <div class="col-xl-12 col-md-12">
-                        <h6>COMO TRABAJAMOS</h6>
-                        <h3>Lo que nos destaca</h3>
+                    <div class="col-xl-12 col-md-12 texto-seccion">
+                        <h6 class="subtitulo-superior">NOSOTROS</h6>
+                        <h3 class="titulo-seccion">Lo que nos destaca</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Alias mollitia nobis neque voluptas autem ducimus sequi reprehenderit.</p>
                     </div>
                     <div class="col-xl-3 col-md-12 card-valores">
                         <img class="img-generica-card" src="assets/img/floralis.jpg" alt="Illustración">
-                        <h6>Creatividad</h6>
-                        <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        <div class="texto-card">
+                            <h6>Creatividad</h6>
+                            <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
+                        </div>
+                    <div class="col-xl-3 col-md-12 card-valores">
+                        <img class="img-generica-card" src="assets/img/floralis.jpg" alt="Illustración">
+                        <div class="texto-card">
+                            <h6>Innovación</h6>
+                            <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                     <div class="col-xl-3 col-md-12 card-valores">
                         <img class="img-generica-card" src="assets/img/floralis.jpg" alt="Illustración">
-                        <h6>Innovación</h6>
-                        <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        <div class="texto-card">
+                            <h6>Experiencia</h6>
+                            <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                     <div class="col-xl-3 col-md-12 card-valores">
                         <img class="img-generica-card" src="assets/img/floralis.jpg" alt="Illustración">
-                        <h6>Experiencia</h6>
-                        <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="col-xl-3 col-md-12 card-valores">
-                        <img class="img-generica-card" src="assets/img/floralis.jpg" alt="Illustración">
-                        <h6>Agilidad</h6>
-                        <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        <div class="texto-card"></div>
+                            <h6>Agilidad</h6>
+                            <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Fin sección nosotros -->
-
+    <!-- Ilustración -->
+    <div class="containerValores">
+        <div class="row">
+            <div class="col-xl-12">
+                <img class="ilustracion" src="assets/img/ilustracion2.svg" alt="Ilustración">
+            </div>
+        </div>
+    </div>
+    <!-- Fin ilustración -->
+    <!-- Inicio sección servicios -->
+    <div class="containerServicios">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="col-xl-12 col-md-12 texto-seccion">
+                    <h6 class="subtitulo-superior">SERVICIOS</h6>
+                    <h3  class="titulo-seccion">Conocé nuestra manera de hacer crecer tu negocio</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Alias mollitia nobis neque voluptas autem ducimus sequi reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin sección servicios -->
     <!-- Inicio Qué hacemos -->
     <div class="containerQueHacemos">
         <div class="row">
             <div class="col-xl-12">
                 <div class="row">
                     <div class="col-xl-12 col-md-12 titleQueHacemos">
-                        <h6>QUE HACEMOS</h6>
+                        <h6 class="subtitulo-superior">QUE HACEMOS</h6>
                         <h3>Nuestra forma de trabajo</h3>
                     </div>
                 </div>
@@ -107,12 +147,12 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni distinctio possimus eum ab incidunt ipsam suscipit sint odio, nemo doloribus sit est iure nam quisquam omnis rerum consequatur animi. At!</p>
                     </div>
                     <div class="col-xl-6 col-md-6">
-                        <img src="./assets/img/floralis.jpg" alt="Ilustración" class="imgQueHacemos">
+                        <img src="assets/img/ilustracion3.svg" alt="Ilustración" class="imgQueHacemos">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-6 col-md-6 pad-8">
-                        <img src="./assets/img/floralis.jpg" alt="Ilustración" class="imgQueHacemos">
+                        <img src="assets/img/ilustracion4.svg" alt="Ilustración" class="imgQueHacemos">
                     </div>
                     <div class="col-xl-6 col-md-6 textQueHacemos pad-8">
                         <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
@@ -125,17 +165,210 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni distinctio possimus eum ab incidunt ipsam suscipit sint odio, nemo doloribus sit est iure nam quisquam omnis rerum consequatur animi. At!</p>
                     </div>
                     <div class="col-xl-6 col-md-6 pad-8">
-                        <img src="./assets/img/floralis.jpg" alt="Ilustración" class="imgQueHacemos">
+                        <img src="assets/img/ilustracion5.svg" alt="Ilustración" class="imgQueHacemos">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Fin Qué hacemos -->
+    <!-- Inicio sección trabajos -->
+    <div class="containerTrabajos">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="col-xl-12 col-md-12 texto-seccion">
+                    <h6 class="subtitulo-superior">TRABAJOS</h6>
+                    <h3 class="titulo-seccion">Conocé más sobre nuestros proyectos</h3>
+                </div>
+                <div class="col-xl-12 col-md-12 botonesTrabajos">
+                    <button class="btn-redondeado btn btn-secondary btn-lg btn-trabajos" onclick="mostrarPaginas()">Páginas</button>
+                    <button class="btn-redondeado btn btn-secondary btn-lg btn-trabajos" onclick="mostrarApps()">Apss</button>
+                    <button class="btn-redondeado btn btn-secondary btn-lg btn-trabajos" onclick="mostrarOtros()">Otros</button>
+                    <!-- Botones para mostrs u ocultar trabajos realizados según tipo: Paginas / apps / otros -->
+                </div>
+                <div>
+                    <!-- Carrousel de paginas, apps u otros según seleccionado en botón de arriba -->
+                    <!-- Open carousel páginas -->
+                    <section id="trabajos1" class="trabajos section-bg">
+                        <div class="container">
+                            <div class="owl-carousel trabajos-carousel">
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Close Carrousel páginas-->
+                    <!-- Open carousel apps -->
+                    <section id="trabajos2" class="trabajos section-bg noMostrar">
+                        <div class="container">
+                            <div class="owl-carousel trabajos-carousel">
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Close Carrousel apps-->
+                    <!-- Open carousel otros -->
+                    <section id="trabajos3" class="trabajos section-bg noMostrar">
+                        <div class="container">
+                            <div class="owl-carousel trabajos-carousel">
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
+                                    <h6>TÍTULO TRABAJO</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Close Carrousel otros -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin sección trabajos -->
+    <!-- Inicio sección tecnologías -->
+    <div class="containerTecnologias">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="col-xl-12 col-md-12 texto-seccion">
+                    <h6 class="subtitulo-superior">TECNOLOGÍAS</h6>
+                    <h3 class="titulo-seccion">Tecnologías con las que trabajamos</h3>
+                </div>
+                <div class="col-xl-12 col-md-12">
+                    <!-- Open carousel tecnologías -->
+                    <section class="section-bg">
+                        <div class="containerTecnologiasImgs">
+                            <div class="owl-carousel tecnologias-carousel">
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                                <div class="tecnologias-item">
+                                    <img class="img-tecnologias" src="assets/img/floralis.jpg" alt="Logo tecnología">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Close Carrousel tecnologías -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin sección tecnologías -->
+    <!-- Inicio sección contactanos -->
 
+    <!-- Fin sección contactanos -->
+    <!-- Inicio Footer -->
+    
+    <!-- Fin footer -->
     <!-- Vendor JS Files -->
+        <!-- JQuery -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
+        <!-- Typed -->
     <script src="assets/vendor/typed.js/typed.min.js"></script>
+        <!-- Owl Carousel -->
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <!-- Main JS File -->
     <script src="assets/js/script.js"></script>
 </body>
