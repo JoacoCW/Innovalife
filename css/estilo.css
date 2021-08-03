@@ -329,7 +329,6 @@ height: 350px;
 .img-tecnologias {
     width: 80px !important;
     height: 80px;
-    border-radius: 50%;
     margin: 0 !important
 }
 
@@ -347,7 +346,6 @@ height: 350px;
 .tecnologias .tecnologias-item .tecnologias-img {
     width: 80px;
     height: 80px;
-    border-radius: 30px 30px 30px 30px;
     margin: 0 auto; 
 }
 
@@ -362,7 +360,7 @@ height: 350px;
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 5%;
-    border-radius: 6px;
+    /*border-radius: 6px;*/
 }
 
 .tecnologias .owl-nav, .tecnologias .owl-dots {
