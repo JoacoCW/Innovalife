@@ -120,14 +120,14 @@
     margin-bottom: 5%;
 }
 
-.card {
+.card-valores {
     border-radius: 30px 30px 30px 30px !important;
     padding: 0 !important;
-    width: 23%;
+    width: 23% !important;
     height: 350px;
     margin-left: 10px;
     margin-right: 10px;
-    display: inline-block
+    display: inline-block;
 }
 
 .card-title {
@@ -165,6 +165,42 @@
     text-align: center;
 }
 
+.card-servicios {
+    border-radius: 30px 30px 30px 30px !important;
+    padding: 0 !important;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-doble{
+    width: 46%;
+    height: 350px;
+}
+
+.card-simple {
+width: 23%;
+height: 350px;
+}
+
+.img-generica-card-servicios {
+    width: 100%;
+    height: 250px;
+    border-radius: 30px 30px 0px 0px;
+    padding-bottom: 15px;
+}
+
+.texto-card-servicios {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.texto-card-servicios-titulo {
+    color: #1F2F9B;
+}
+
 /* Fin sección servicios */
 
 /* Sección Que hacemos */
@@ -173,10 +209,8 @@
     padding-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.titleQueHacemos {
-    margin-bottom: 3rem;
+    align-items: center;
+    text-align: center;
 }
 
 .textQueHacemos {
