@@ -81,12 +81,10 @@
 	height: 60px;
 	bottom: 5%;
 	right: 3%;
-	background-color: #25D366 !important;
-	color: #FFF;
+	color: #5D5D5D;
 	border-radius: 50%;
 	text-align: center;
     font-size: 200%;
-	box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
 
@@ -121,13 +119,14 @@
 }
 
 .card-valores {
-    border-radius: 30px 30px 30px 30px !important;
+    border-radius: 10px 10px 10px 10px !important;
     padding: 0 !important;
     width: 23% !important;
     height: 350px;
     margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
+    border: none;
 }
 
 .card-title {
@@ -150,7 +149,7 @@
 /* Sección ilustración */
 
 .ilustracion {
-    width: 80%;
+    width: 70%;
 }
 
 /* Fin sección ilustración */
@@ -240,6 +239,18 @@ height: 350px;
 .btn-trabajos {
     margin-left: 5%;
     margin-right: 5%;
+    color: #5D5D5D;
+    background-color: #fff;
+    border: none;
+}
+
+.btn-trabajos:hover {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #1F2F9B;
+    background-color: #fff;
+    border: none;
+    text-decoration: underline !important;
 }
 
 .noMostrar {
@@ -253,14 +264,18 @@ height: 350px;
     text-align: center;
     background: #fff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); 
-    padding-top: 5%;
-    /*min-height: 320px;*/ 
 }
 
 .trabajos .trabajos-item .trabajos-img {
-    width: 300px;
+    width: 100%;
+    margin: 2%;
     height: 300px;
-    margin: 0 auto; 
+}
+
+.trabajos-text {
+    text-align: left;
+    margin-left: 5%;
+    color: #5D5D5D;
 }
 
 .trabajos .trabajos-item h6 {
@@ -268,9 +283,6 @@ height: 350px;
 }
 
 .trabajos .trabajos-item p {
-    margin: 0 15px 15px 15px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 5%;
@@ -327,8 +339,8 @@ height: 350px;
 }
 
 .img-tecnologias {
-    width: 80px !important;
-    height: 80px;
+    width: 90px !important;
+    height: 90px;
     margin: 0 !important
 }
 
@@ -344,8 +356,8 @@ height: 350px;
 }
 
 .tecnologias .tecnologias-item .tecnologias-img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 0 auto; 
 }
 
@@ -381,6 +393,9 @@ height: 350px;
     background-color: #149ddd !important; 
 }
 
+.owl-carousel .owl-item img {
+    display: inline-block;
+}
 
 @media (max-width: 767px) {
     .tecnologias {

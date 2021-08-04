@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light right-5">
+    <nav class="navbar navbar-expand-lg navbar-light right-5 shadow-sm fixed-top bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="img-logo" src="assets/img/Logo_Innovalife.svg" alt="Logo Innovalife"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,28 +73,28 @@
                 <h3 class="titulo-seccion">¿Por qué Innovalife?</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Alias mollitia nobis neque voluptas autem ducimus sequi reprehenderit.</p>
             </div>
-            <div class="col-md-3 col-sm-12 card card-valores">
+            <div class="col-md-3 col-sm-12 card card-valores shadow-sm">
                 <img class="img-generica-card" src="assets/img/IconoInnovacion.svg" alt="Illustración">
                 <div class="texto-card">
                     <h6 class="card-title">Innovación</h6>
                     <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 card card-valores">
+            <div class="col-md-3 col-sm-12 card card-valores shadow-sm">
                 <img class="img-generica-card" src="assets/img/IconoCalidad.svg" alt="Illustración">
                 <div class="texto-card">
                     <h6 class="card-title">Resultados</h6>
                     <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 card card-valores">
+            <div class="col-md-3 col-sm-12 card card-valores shadow-sm">
                 <img class="img-generica-card" src="assets/img/IconoCalidad.svg" alt="Illustración">
                 <div class="texto-card">
                     <h6 class="card-title">Calidad</h6>
                     <p>Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 card card-valores">
+            <div class="col-md-3 col-sm-12 card card-valores shadow-sm">
                 <img class="img-generica-card" src="assets/img/IconoDisenos.svg" alt="Illustración">
                 <div class="texto-card"></div>
                     <h6 class="card-title">Diseños</h6>
@@ -221,9 +221,10 @@
                     <h3 class="titulo-seccion">Conocé más sobre nuestros proyectos</h3>
                 </div>
                 <div class="col-xl-12 col-md-12 botonesTrabajos">
-                    <button class="btn-redondeado btn btn-secondary btn-lg btn-trabajos" onclick="mostrarPaginas()">Páginas</button>
-                    <button class="btn-redondeado btn btn-secondary btn-lg btn-trabajos" onclick="mostrarApps()">Apss</button>
-                    <button class="btn-redondeado btn btn-secondary btn-lg btn-trabajos" onclick="mostrarOtros()">Otros</button>
+                    <button class="btn-lg btn-trabajos" onclick="mostrarPaginas()">DESARROLLO WEB</button>
+                    <button class="btn-lg btn-trabajos" onclick="mostrarApps()">APPS MÓVILES</button>
+                    <button class="btn-lg btn-trabajos" onclick="mostrarOtros()">MARKETING</button>
+                    <button class="btn-lg btn-trabajos" onclick="mostrarDiseno()">DISEÑO</button>
                     <!-- Botones para mostrs u ocultar trabajos realizados según tipo: Paginas / apps / otros -->
                 </div>
                 <div>
@@ -234,33 +235,45 @@
                             <div class="owl-carousel trabajos-carousel">
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/Card6.svg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/floralis.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -272,76 +285,150 @@
                             <div class="owl-carousel trabajos-carousel">
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <!-- Close Carrousel apps-->
-                    <!-- Open carousel otros -->
+                    <!-- Open carousel marketing -->
                     <section id="trabajos3" class="trabajos section-bg noMostrar">
                         <div class="container">
                             <div class="owl-carousel trabajos-carousel">
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                                 <div class="trabajos-item">
                                     <img class="trabajos-img" src="assets/img/OtraGenerica.jpg" alt="Imagen de trabajo realizado">
-                                    <h6>TÍTULO TRABAJO</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <!-- Close Carrousel otros -->
+                    <!-- Close Carrousel marketing -->
+                    <!-- Open carousel diseño -->
+                    <section id="trabajos4" class="trabajos section-bg noMostrar">
+                        <div class="container">
+                            <div class="owl-carousel trabajos-carousel">
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="trabajos-item">
+                                    <img class="trabajos-img" src="assets/img/apps.jpg" alt="Imagen de trabajo realizado">
+                                    <div class="trabajos-text">
+                                        <h6>TÍTULO TRABAJO</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Close Carrousel diseño-->
                 </div>
             </div>
         </div>
