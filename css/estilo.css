@@ -404,3 +404,94 @@ height: 350px;
 }
 
 /* Fin sección tecnologías */
+
+/* Inicio Contáctanos */
+
+.section-title {
+    color: #1F2F9B;
+}
+.section-padding {
+    padding: 45px 0;
+}
+
+.find-widget {
+    color: #5D5D5D;
+    margin-top: 2rem;
+}
+
+.contacto {
+    color: #5D5D5D;
+}
+
+.form-group {
+    margin: 2rem;
+}
+
+.form-control {
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.estamos {
+    font-weight: bold;
+}
+
+.telefono {
+    font-weight: bold;
+}
+
+.email {
+    font-weight: bold;
+}
+
+#name {
+    font-style: italic;
+    padding: 2rem;
+}
+
+#email {
+    font-style: italic;
+    padding: 2rem;
+}
+
+#phone {
+    font-style: italic;
+    padding: 2rem;
+}
+
+#message {
+    font-style: italic;
+    padding: 2rem;
+    height: 15rem;
+}
+
+.btn-enviar {
+    background-color: #1F2F9B;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.7rem;
+    color: #FFF;
+    margin-left: 28rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.584);
+    border: 1px solid #00000033;
+}
+
+.btn-enviar:hover {
+    color: #FFF;
+}
+
+.font {
+    color: #5D5D5D;
+    font-size: 20px;
+}
+
+.font:hover {
+    color: #5D5D5D;
+}
+
+.redes {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Fin Contactanos */
