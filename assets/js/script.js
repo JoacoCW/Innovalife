@@ -53,19 +53,29 @@
 })(jQuery);
 
 function mostrarPaginas() {
-    document.getElementById("trabajos2").classList.add('noMostrar');
-    document.getElementById("trabajos3").classList.add('noMostrar');
     document.getElementById("trabajos1").classList.remove('noMostrar');
+    document.getElementById("trabajos2").classList.add('noMostrar');
+    document.getElementById("trabajos3").classList.add('noMostrar');    
+    document.getElementById("trabajos4").classList.add('noMostrar');
 }
 
 function mostrarApps() {
     document.getElementById("trabajos1").classList.add('noMostrar');
-    document.getElementById("trabajos3").classList.add('noMostrar');
     document.getElementById("trabajos2").classList.remove('noMostrar');
+    document.getElementById("trabajos3").classList.add('noMostrar');
+    document.getElementById("trabajos4").classList.add('noMostrar');
 }
 
 function mostrarOtros() {
-    document.getElementById("trabajos2").classList.add('noMostrar');
     document.getElementById("trabajos1").classList.add('noMostrar');
+    document.getElementById("trabajos2").classList.add('noMostrar');
     document.getElementById("trabajos3").classList.remove('noMostrar');
+    document.getElementById("trabajos4").classList.add('noMostrar');
+}
+
+function mostrarDiseno() {
+    document.getElementById("trabajos1").classList.add('noMostrar');
+    document.getElementById("trabajos2").classList.add('noMostrar');
+    document.getElementById("trabajos3").classList.add('noMostrar');
+    document.getElementById("trabajos4").classList.remove('noMostrar');
 }
