@@ -121,14 +121,17 @@
 }
 
 .card-valores {
-    border-style: groove;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px !important;
     padding: 0 !important;
-    width: 23%;
+    width: 23% !important;
     height: 350px;
     margin-left: 10px;
     margin-right: 10px;
-    display: inline-block
+    display: inline-block;
+}
+
+.card-title {
+    font-weight: bold;
 }
 
 .texto-card {
@@ -136,7 +139,7 @@
 }
 
 .img-generica-card {
-    width: 200px;
+    width: 60px;
     height: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -162,6 +165,41 @@
     text-align: center;
 }
 
+.card-servicios {
+    padding: 0 !important;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-doble{
+    width: 46%;
+    height: 350px;
+}
+
+.card-simple {
+width: 23%;
+height: 350px;
+}
+
+.img-generica-card-servicios {
+    width: 100%;
+    height: 250px;
+    border-radius: 30px 30px 0px 0px;
+    padding-bottom: 15px;
+}
+
+.texto-card-servicios {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.texto-card-servicios-titulo {
+    color: #1F2F9B;
+}
+
 /* Fin sección servicios */
 
 /* Sección Que hacemos */
@@ -170,10 +208,8 @@
     padding-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.titleQueHacemos {
-    margin-bottom: 3rem;
+    align-items: center;
+    text-align: center;
 }
 
 .textQueHacemos {
@@ -224,7 +260,6 @@
 .trabajos .trabajos-item .trabajos-img {
     width: 300px;
     height: 300px;
-    border-radius: 30px 30px 30px 30px;
     margin: 0 auto; 
 }
 
@@ -294,7 +329,6 @@
 .img-tecnologias {
     width: 80px !important;
     height: 80px;
-    border-radius: 50%;
     margin: 0 !important
 }
 
@@ -312,7 +346,6 @@
 .tecnologias .tecnologias-item .tecnologias-img {
     width: 80px;
     height: 80px;
-    border-radius: 30px 30px 30px 30px;
     margin: 0 auto; 
 }
 
@@ -327,7 +360,7 @@
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 5%;
-    border-radius: 6px;
+    /*border-radius: 6px;*/
 }
 
 .tecnologias .owl-nav, .tecnologias .owl-dots {
