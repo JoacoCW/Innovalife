@@ -411,6 +411,7 @@ height: 350px;
     color: #1F2F9B;
     font-weight: bold;
 }
+
 .section-padding {
     padding: 45px 0;
 }
@@ -496,3 +497,47 @@ height: 350px;
 }
 
 /* Fin Contactanos */
+
+/* Inicio Footer */
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    list-style-type: none;
+}
+
+.social-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.7rem;
+}
+/* para los íconos */
+/* .font {
+    margin-left: 1rem;
+} */
+
+.logo-footer {
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+.footer-section {
+    background: #FAFAFA;
+    position: relative;
+}
+
+.items-info-foter {
+    padding-left: 4%;
+}
+
+.info-footer p {
+    margin-bottom: 0rem;
+    color: #5D5D5D;
+}
+
+.estamos-footer {
+    margin-top: 1rem;
+}
+
+/* Final Footer */
