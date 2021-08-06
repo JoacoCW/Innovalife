@@ -48,9 +48,9 @@ Innovalife Chile Web site
 
 #### Virginia Lombardi
 
--Website
--Twitter
--Linkedin
+-Website - [Virginia Lombardi] https://github.com/LVLVirginiaLombardi?tab=repositories
+-Instagram - [Virginia Lombardi] https://www.instagram.com/liliths_aart/
+-Linkedin - [Virginia Lombardi] https://www.linkedin.com/in/lilian-virginia-lombardi-l%C3%B3pez-b7bba5129/
 
 #### Joaquín Weiss
 
