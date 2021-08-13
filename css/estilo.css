@@ -512,6 +512,10 @@ height: 350px;
     margin-bottom: 2rem;
 }
 
+.redes .font {
+    font-size: 200%;
+}
+
 /* Fin Contactanos */
 
 /* Inicio Footer */
@@ -555,5 +559,7 @@ ul {
 .estamos-footer {
     margin-top: 1rem;
 }
+
+
 
 /* Final Footer */
