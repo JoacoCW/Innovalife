@@ -236,6 +236,17 @@ height: 350px;
     width: 70%;
 }
 
+.titulo-parrafo-que-hacemos {
+    color: #1F2F9B;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.justify {
+    color: #5D5D5D;
+    text-align: justify;
+}
+
 /* Fin sección que hacemos */
 
 /* Sección trabajos */
