@@ -9,7 +9,7 @@ Innovalife Chile Web site
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
+- [Authors](#authors)
 
 ## Overview
 
@@ -48,9 +48,9 @@ Innovalife Chile Web site
 
 #### Virginia Lombardi
 
--Website - [Virginia Lombardi](https://github.com/LVLVirginiaLombardi?tab=repositories)
--Instagram - [Virginia Lombardi](https://www.instagram.com/liliths_aart/)
--Linkedin - [Virginia Lombardi](https://www.linkedin.com/in/lilian-virginia-lombardi-l%C3%B3pez-b7bba5129/)
+- Website - [Virginia Lombardi](https://github.com/LVLVirginiaLombardi?tab=repositories)
+- Instagram - [Virginia Lombardi](https://www.instagram.com/liliths_aart/)
+- Linkedin - [Virginia Lombardi](https://www.linkedin.com/in/lilian-virginia-lombardi-l%C3%B3pez-b7bba5129/)
 
 #### Joaquín Weiss
 
