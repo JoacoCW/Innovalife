@@ -229,7 +229,7 @@
     /*min-height: 320px;*/ 
 }
 
-.valores .valores-item .valoress-img {
+.valores .valores-item .valores-img {
     width: 90px;
     height: 90px;
     margin: 0 auto; 
@@ -281,6 +281,14 @@
 
 /* Sección ilustración */
 
+.containerIlustracion {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+}
+
 .ilustracion {
     width: 70%;
 }
@@ -302,7 +310,6 @@
     padding-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    align-items: center;
     text-align: center;
 }
 
@@ -312,7 +319,6 @@
     margin-right: 10px;
     margin-bottom: 15px;
     display: inline-block;
-    border: 1px solid rgba(0, 0, 0, .125);
 }
 
 .card-doble{
@@ -321,8 +327,8 @@
 }
 
 .card-simple {
-width: 23%;
-height: 350px;
+    width: 22%;
+    height: 350px;
 }
 
 .img-generica-card-servicios {
@@ -339,6 +345,105 @@ height: 350px;
 
 .texto-card-servicios-titulo {
     color: #1F2F9B;
+}
+
+.slider-servicios {
+    display: none;
+}
+
+/* Vista mobile */
+
+@media only screen and (max-width: 768px) {
+    .cards-servicios {
+        display: none;
+    }
+
+    .slider-servicios {
+        display: inline-block;
+    }
+}
+
+/* Carousel servicios */
+
+.card-servicios-slider {
+    border-radius: 10px 10px 10px 10px !important;
+    padding: 0 !important;
+    width: 80% !important;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border: none;
+}
+
+.img-servicios {
+    width: 100% !important;
+    height: 200px;
+    margin: 0 !important
+}
+
+.texto-card-servicios-slider {
+    padding-left: 5%;
+    text-align: left;
+}
+
+/* Cards carousel valores */
+
+.servicios .servicios-item {
+    box-sizing: content-box;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); 
+    padding-top: 5%;
+    /*min-height: 320px;*/ 
+}
+
+.servicios .servicios-item .servicios-img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto; 
+}
+
+.servicios .servicios-item h6 {
+    padding-top: 5%;
+}
+
+.servicios .servicios-item p {
+    margin: 0 15px 15px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 5%;
+    /*border-radius: 6px;*/
+}
+
+.servicios .owl-nav, .servicios .owl-dots {
+    margin-top: 5px;
+    text-align: center; 
+}
+
+.servicios .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd !important; 
+}
+
+.servicios .owl-dot.active {
+    background-color: #149ddd !important; 
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .servicios {
+        margin: 30px 10px; 
+    }
 }
 
 /* Fin sección servicios */
