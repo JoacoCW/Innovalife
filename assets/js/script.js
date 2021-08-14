@@ -14,7 +14,7 @@
         });
     }
 
-    // Testimonials carousel (uses the Owl Carousel library)
+    // Trabajos carousel (uses the Owl Carousel library)
     $(".trabajos-carousel").owlCarousel({
         autoplay: true,
         dots: true,
@@ -32,7 +32,7 @@
         }
     });
 
-    // Testimonials carousel (uses the Owl Carousel library)
+    // Tecnologias carousel (uses the Owl Carousel library)
     $(".tecnologias-carousel").owlCarousel({
         autoplay: true,
         dots: true,
@@ -46,6 +46,24 @@
             },
             900: {
                 items: 6
+            }
+        }
+    });
+
+    // Valores carousel (uses the Owl Carousel library)
+    $(".valores-carousel").owlCarousel({
+        autoplay: true,
+        dots: true,
+        loop: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            900: {
+                items: 4
             }
         }
     });

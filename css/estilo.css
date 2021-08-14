@@ -79,12 +79,35 @@
     border-radius: 30px 30px 30px 30px;
 }
 
-.img-generica {
+.ilustracion1 {
     width: 95%;
 }
 
 .pad-8 {
     padding-top: 8%;
+}
+
+/* Vista mobile */
+
+@media only screen and (max-width: 768px) {
+    .containerInicio {
+        margin-top: 18%;
+    }
+
+    .titulo-principal {
+        font-size: 200%;
+        margin-bottom: 5%;
+    }
+
+    .btn-cotiza {
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+
+    .ilustracion1 {
+        width: 70%;
+        margin-left: 17%;
+    }
 }
 
 /* Fin sección incio*/
@@ -160,12 +183,115 @@
     padding-bottom: 15px;
 }
 
+.slider-valores {
+    display: none;
+}
+
+/* Vista mobile */
+
+@media only screen and (max-width: 768px) {
+    .cards-valores {
+        display: none;
+    }
+
+    .slider-valores {
+        display: inline-block;
+    }
+}
+
+/* Carousel valores */
+
+.card-valores-slider {
+    border-radius: 10px 10px 10px 10px !important;
+    padding: 0 !important;
+    width: 80% !important;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border: none;
+}
+
+.img-valores {
+    width: 100px !important;
+    height: 200px;
+    margin: 0 !important
+}
+
+/* Cards carousel valores */
+
+.valores .valores-item {
+    box-sizing: content-box;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); 
+    padding-top: 5%;
+    /*min-height: 320px;*/ 
+}
+
+.valores .valores-item .valoress-img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto; 
+}
+
+.valores .valores-item h6 {
+    padding-top: 5%;
+}
+
+.valores .valores-item p {
+    margin: 0 15px 15px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 5%;
+    /*border-radius: 6px;*/
+}
+
+.valores .owl-nav, .valores .owl-dots {
+    margin-top: 5px;
+    text-align: center; 
+}
+
+.valores .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd !important; 
+}
+
+.valores .owl-dot.active {
+    background-color: #149ddd !important; 
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .valores {
+        margin: 30px 10px; 
+    }
+}
+
 /* Fin sección valores */
 
 /* Sección ilustración */
 
 .ilustracion {
     width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .ilustracion {
+        width: 70%;
+        margin-left: 12%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 }
 
 /* Fin sección ilustración */
