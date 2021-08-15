@@ -61,6 +61,24 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        width: 30%;
+        flex-direction: row-reverse;
+        margin-left: 0%;
+    }
+    .right-5 {
+        padding-left: 0%;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(39,47,155, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: transparent !important;
+    } 
+}
+
 /* Sercción inicio */ 
 .containerInicio {
     padding-top: 5%;
