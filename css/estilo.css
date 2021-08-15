@@ -62,21 +62,30 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .container-fluid {
-        width: 30%;
-        flex-direction: row-reverse;
-        margin-left: 0%;
-    }
+    /*.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        flex-wrap: nowrap;
+    }*/
+
+    .container-fluid a {
+        max-width: 100px;
+    }*/
+
     .right-5 {
         padding-left: 0%;
     }
+
+    .img-logo {
+        width: 150%;
+        margin-left: 80%;
+    }
+
     .custom-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(39,47,155, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
     }
 
     .custom-toggler.navbar-toggler {
         border-color: transparent !important;
-    } 
+    }
 }
 
 /* Sercción inicio */ 
@@ -389,6 +398,7 @@
 
     .slider-servicios {
         display: inline-block;
+        max-width: 350px;
     }
 }
 
@@ -416,7 +426,7 @@
     text-align: left;
 }
 
-/* Cards carousel valores */
+/* Cards carousel servicios */
 
 .servicios .servicios-item {
     box-sizing: content-box;
