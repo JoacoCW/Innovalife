@@ -478,7 +478,37 @@
     width: 70%;
 }
 
+.imgQueHacemos2 {
+    width: 70%;
+}
+
+.imgQueHacemos3 {
+    width: 70%;
+}
+
+.imgQueHacemos4 {
+    width: 70%;
+}
+
 .titulo-parrafo-que-hacemos {
+    color: #1F2F9B;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.titulo-parrafo-que-hacemos1 {
+    color: #1F2F9B;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.titulo-parrafo-que-hacemos2 {
+    color: #1F2F9B;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.titulo-parrafo-que-hacemos3 {
     color: #1F2F9B;
     text-decoration: underline;
     text-align: justify;
@@ -488,6 +518,78 @@
     color: #5D5D5D;
     text-align: justify;
 }
+
+.justify1 {
+    color: #5D5D5D;
+    text-align: justify;
+}
+
+.justify2 {
+    color: #5D5D5D;
+    text-align: justify;
+}
+
+.justify3 {
+    color: #5D5D5D;
+    text-align: justify;
+}
+
+@media (max-width: 400px) {
+    
+    .textQueHacemos {
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .imgQueHacemos {
+        margin-top: 2rem;
+        margin-right: 4rem;
+    }
+
+    .imgQueHacemos2 {
+        margin-top: 2rem;
+        position: absolute;
+        top: 190rem;
+        right: 4rem;
+    }
+
+    .imgQueHacemos3 {
+        margin-top: 2rem;
+        position: absolute;
+        top: 225rem;
+        right: 4rem;
+    }
+
+    .imgQueHacemos4 {
+        position: absolute;
+        top: 263rem;
+        right: 4rem;
+    }
+
+    .titulo-parrafo-que-hacemos2 {
+        position: absolute;
+        top: 212rem;
+    }
+
+    .justify2 {
+        position: absolute;
+        top: 214rem;
+    }
+
+    .titulo-parrafo-que-hacemos3 {
+        position: absolute;
+        top: 245rem;
+    }
+
+    .justify3 {
+        position: absolute;
+        top: 247rem;
+    }
+
+
+
+}
+
 
 /* Fin sección que hacemos */
 
@@ -499,6 +601,15 @@
     margin-right: 5%;
     align-items: center;
     text-align: center;
+}
+
+.titulo-seccion-trabajos {
+    color: #5D5D5D;
+}
+
+.subtitulo-superior-trabajos {
+    color: #1F2F9B;
+    font-weight: bold;
 }
 
 .botonesTrabajos {
@@ -524,6 +635,12 @@
 
 .noMostrar {
     display: none;
+}
+
+@media (max-width: 767px) {
+    .containerTrabajos {
+        padding-top: 72rem;
+    }
 }
 
 /* Cards trabajos realizados */
@@ -670,15 +787,24 @@
     .tecnologias {
         margin: 30px 10px; 
     }
+    
 }
 
 /* Fin sección tecnologías */
 
 /* Inicio Contáctanos */
 
-.section-title {
+.section-title-contactanos {
     color: #1F2F9B;
     font-weight: bold;
+}
+
+.parrafo-contactanos {
+    color: #5D5D5D;
+}
+
+.parrafo-contactanos2 {
+    color: #5D5D5D;
 }
 
 .section-padding {
@@ -767,6 +893,28 @@
 
 .redes .font {
     font-size: 200%;
+}
+
+@media (max-width: 767px) {
+    .section-title-contactanos {
+        margin-left: 2.7rem;
+    }
+
+    .section-padding {
+        padding: 0 auto;
+    }
+
+    .form-control {
+        height: 2rem;
+        border-radius: 10px;
+    }
+
+    .font {
+        font-size: 7px;
+        margin-left: 15px;
+    }
+
+    
 }
 
 /* Fin Contactanos */
