@@ -566,9 +566,18 @@
         right: 4rem;
     }
 
+    .titulo-parrafo-que-hacemos {
+        margin-left: 2.5rem;
+    }
+
+    .titulo-parrafo-que-hacemos1 {
+        margin-left: 5.5rem;
+    }
+
     .titulo-parrafo-que-hacemos2 {
         position: absolute;
         top: 212rem;
+        left: 4rem;
     }
 
     .justify2 {
@@ -579,6 +588,7 @@
     .titulo-parrafo-que-hacemos3 {
         position: absolute;
         top: 245rem;
+        left: 5.5rem;
     }
 
     .justify3 {
