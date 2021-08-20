@@ -940,8 +940,13 @@
 }
 
 @media (max-width: 767px) {
+    .containerContacto{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .section-title-contactanos {
-        margin-left: 2.7rem;
+        text-align: center;
     }
 
     .section-padding {
@@ -955,13 +960,17 @@
 
     .font {
         font-size: 7px;
-        margin-left: 15px;
+        margin-left: 10%;
+    }
+
+    .redes {
+        padding-top: 2%;
     }
 
     .parrafo-contactanos {
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
+
     .contacto-info {
         display: none;
     }
