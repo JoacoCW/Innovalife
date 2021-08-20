@@ -1085,9 +1085,10 @@ ul {
     }
 
     .display-none {
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
-        margin-left: 1.5rem;
+        margin-left: 1rem;
     }
 
     .telefono, .email {
