@@ -589,13 +589,13 @@
     .imgQueHacemos3 {
         margin-top: 2rem;
         position: absolute;
-        top: 225rem;
+        top: 229rem;
         right: 4rem;
     }
 
     .imgQueHacemos4 {
         position: absolute;
-        top: 263rem;
+        top: 267rem;
         right: 4rem;
     }
 
@@ -611,24 +611,24 @@
 
     .titulo-parrafo-que-hacemos2 {
         position: absolute;
-        top: 212rem;
-        left: 6rem;
+        top: 215rem;
+        left: 4rem;
     }
 
     .justify2 {
         position: absolute;
-        top: 214rem;
+        top: 217rem;
     }
 
     .titulo-parrafo-que-hacemos3 {
         position: absolute;
-        top: 245rem;
-        left: 7.5rem;
-    }
+        top: 249rem;
+        left: 5.5rem;
+     }
 
     .justify3 {
         position: absolute;
-        top: 247rem;
+        top: 251rem;
     }
 }
 
