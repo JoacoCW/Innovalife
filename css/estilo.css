@@ -19,7 +19,7 @@
 }
 
 .nav-item a:hover {
-    color: #1F2F9B !important;
+    color: #ffffff !important;
     text-decoration: underline !important;
 }
 
@@ -27,6 +27,10 @@
     background-color: #1F2F9B;
     color: white !important;
     border-radius: 30px 30px 30px 30px;
+}
+
+.contact:hover {
+    background-color: #152069;
 }
 
 .btn-cotiza {
@@ -528,24 +532,28 @@
     color: #1F2F9B;
     text-decoration: underline;
     text-align: justify;
+    font-weight: bold;
 }
 
 .titulo-parrafo-que-hacemos1 {
     color: #1F2F9B;
     text-decoration: underline;
     text-align: justify;
+    font-weight: bold;
 }
 
 .titulo-parrafo-que-hacemos2 {
     color: #1F2F9B;
     text-decoration: underline;
     text-align: justify;
+    font-weight: bold;
 }
 
 .titulo-parrafo-que-hacemos3 {
     color: #1F2F9B;
     text-decoration: underline;
     text-align: justify;
+    font-weight: bold;
 }
 
 .justify {
@@ -603,39 +611,33 @@
     }
 
     .titulo-parrafo-que-hacemos {
-        margin-left: 4.5rem;
+        text-align: center;
     }
 
     .titulo-parrafo-que-hacemos1 {
-        margin-left: 7rem;
-        /* position: absolute;
-        top: 160rem; */
+        text-align: center;
     }
 
     .titulo-parrafo-que-hacemos2 {
-        position: absolute;
-        top: 215rem;
-        left: 4rem;
+        transform: translateY(230px);
+        text-align: center;
     }
 
     .justify2 {
         position: absolute;
         top: 217rem;
-        padding: 0.9;
-        margin-right: 0.8rem;
+        margin-right: 1rem;
     }
 
     .titulo-parrafo-que-hacemos3 {
-        position: absolute;
-        top: 249rem;
-        left: 5.5rem;
+        transform: translateY(570px);
+        text-align: center;
     }
 
     .justify3 {
         position: absolute;
         top: 251rem;
-        padding: 0.9;
-        margin-right: 0.8rem;
+        margin-right: 1rem;
     }
 }
 
