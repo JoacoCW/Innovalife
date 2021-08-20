@@ -349,23 +349,23 @@
 }
 
 .card1 {
-    width: 30rem;
+    width: 40vw;
 }
 
 .card2 {
-    width: 14.5rem;
+    width: 20vw;
 }
 
 .card3 {
-    width: 14.5rem;
+    width: 20vw;
 }
 
 .card4 {
-    width: 30rem;
+    width: 40.6vw;
 }
 
 .card5 {
-    width: 30rem;
+    width: 40.6vw;
 }
 
 
@@ -376,9 +376,10 @@
 }
 
 .texto-card-servicios {
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: left;
-    height: 8rem;
+    height: 6rem;
 }
 
 .texto-card-servicios-titulo {
