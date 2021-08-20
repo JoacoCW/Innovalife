@@ -660,6 +660,14 @@
     border: none;
 }
 
+@media only screen and (max-width: 768px) {
+    .btn-trabajos {
+        width: 90vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
 .btn-trabajos:hover {
     margin-left: 5%;
     margin-right: 5%;
