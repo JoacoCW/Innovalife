@@ -576,14 +576,13 @@
     }
 
     .imgQueHacemos {
-        margin-top: 2rem;
         margin-right: 4rem;
     }
 
     .imgQueHacemos2 {
         margin-top: 2rem;
         position: absolute;
-        top: 190rem;
+        top: 194rem;
         right: 4rem;
     }
 
@@ -606,6 +605,8 @@
 
     .titulo-parrafo-que-hacemos1 {
         margin-left: 5.5rem;
+        /* position: absolute;
+        top: 160rem; */
     }
 
     .titulo-parrafo-que-hacemos2 {
@@ -688,7 +689,7 @@
 
 @media (max-width: 767px) {
     .containerTrabajos {
-        padding-top: 72rem;
+        padding-top: 78rem;
     }
 }
 
@@ -1042,6 +1043,45 @@ ul {
     margin-top: 1rem;
 }
 
+@media (max-width: 767px) {
+    .logo-footer {
+        margin-top: 0.5rem;
+        width: 10rem;
+        
+    }
 
+    .social-footer {
+        margin-left: 8rem;
+        margin-top: 0rem;
+    }
 
+    .font {
+        margin-left: 0.5rem;
+        font-size: 1rem;
+    }
+
+    /* .info-footer {
+        display: flex;
+        flex-direction: row;
+    } */
+
+    .estamos-footer {
+        margin-bottom: 0.5rem;
+    }
+
+    .social {
+        position: absolute;
+        top: 4rem;
+        left: 5rem;
+    }
+
+    /* .tel-footer {
+        margin-right: 20rem;
+        display: block;
+    } */
+    .items-info-foter {
+        display: flex;
+        
+    }
+}
 /* Final Footer */
