@@ -1066,7 +1066,7 @@ ul {
     }
 
     .estamos-footer {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     .social {
@@ -1085,8 +1085,10 @@ ul {
     }
 
     .display-none {
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
+        margin-left: 1rem;
     }
 
     .telefono, .email {
