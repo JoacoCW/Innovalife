@@ -600,11 +600,11 @@
     }
 
     .titulo-parrafo-que-hacemos {
-        margin-left: 2.5rem;
+        margin-left: 4.5rem;
     }
 
     .titulo-parrafo-que-hacemos1 {
-        margin-left: 5.5rem;
+        margin-left: 7rem;
         /* position: absolute;
         top: 160rem; */
     }
@@ -624,7 +624,7 @@
         position: absolute;
         top: 249rem;
         left: 5.5rem;
-    }
+     }
 
     .justify3 {
         position: absolute;
@@ -971,6 +971,7 @@
 
     .redes {
         padding-top: 2%;
+        margin-left: 4rem;
     }
 
     .parrafo-contactanos {
@@ -1043,6 +1044,10 @@ ul {
     margin-top: 1rem;
 }
 
+.display-none {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .logo-footer {
         margin-top: 0.5rem;
@@ -1051,19 +1056,14 @@ ul {
     }
 
     .social-footer {
-        margin-left: 8rem;
+        margin-left: 6.5rem;
         margin-top: 0rem;
     }
 
     .font {
         margin-left: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
-
-    /* .info-footer {
-        display: flex;
-        flex-direction: row;
-    } */
 
     .estamos-footer {
         margin-bottom: 0.5rem;
@@ -1071,17 +1071,32 @@ ul {
 
     .social {
         position: absolute;
-        top: 4rem;
+        top: 3.5rem;
         left: 5rem;
     }
 
-    /* .tel-footer {
-        margin-right: 20rem;
-        display: block;
-    } */
     .items-info-foter {
         display: flex;
         
     }
+
+    .display-desktop {
+        display: none;
+    }
+
+    .display-none {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .telefono, .email {
+        margin-top: 1rem !important;
+    }
+
+    .items-info-footer {
+        padding-left: 4%;
+
+    }
+
 }
 /* Final Footer */
