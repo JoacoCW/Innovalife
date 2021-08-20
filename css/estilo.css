@@ -569,7 +569,10 @@
 }
 
 @media (max-width: 400px) {
-    
+    /* .containerQueHacemos {
+        padding: 5rem;
+    } */
+
     .textQueHacemos {
         margin-top: 3.5rem;
         margin-bottom: 2rem;
@@ -618,17 +621,21 @@
     .justify2 {
         position: absolute;
         top: 217rem;
+        padding: 0.9;
+        margin-right: 0.8rem;
     }
 
     .titulo-parrafo-que-hacemos3 {
         position: absolute;
         top: 249rem;
         left: 5.5rem;
-     }
+    }
 
     .justify3 {
         position: absolute;
         top: 251rem;
+        padding: 0.9;
+        margin-right: 0.8rem;
     }
 }
 
